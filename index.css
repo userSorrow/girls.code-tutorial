@@ -1,0 +1,65 @@
+body {
+    background-color: #EDEDED;
+}
+
+.bgimg {
+    min-height: 30vh;
+    background-image: url('../images/handholding.jpeg');
+    background-size: auto;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.accbtn {
+    border-radius: 5px;
+    border-style: none;
+    background-color: darkblue;
+    color: #EDEDED;
+    opacity: 0.9;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.accbtn:hover {
+    opacity: 1;
+    color: #EDEDED;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.regbtn {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #1a1a1a;
+    color: #EDEDED;
+    padding: 5px 10px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.regbtn:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: solid 2px #1a1a1a
+}
+
+.testimonial {
+    border-radius: 50%;
+    max-width: 20vw;
+}
+
+.panel {
+    border-bottom: solid 1px #1a1a1a;
+}
